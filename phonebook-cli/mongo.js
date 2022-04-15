@@ -3,7 +3,7 @@ const args = process.argv.slice(2);
 const mongoose = require("mongoose");
 
 const url =
-  "mongodb+srv://jhpyyk:fx5wiyR6nyyGORV6@web-mob-phonebook.7mhmx.mongodb.net/web-mob-phonebook?retryWrites=true&w=majority";
+  "mongodb+srv://jhpyyk:<pw>@web-mob-phonebook.7mhmx.mongodb.net/web-mob-phonebook?retryWrites=true&w=majority";
 
 mongoose.connect(url);
 
